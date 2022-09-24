@@ -1,15 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Bookstore
 
-> Description the project.
+> The Bookstore is a website similar to the "Awesome Books" website, creating an MVP version that allows Display a list of books.
+Add a book.
+Remove a selected book.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript
+- React
+- Gitflow, webpack
 
 ## Live Demo (if available)
 
@@ -27,7 +29,6 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 ### Setup
-
 ### Install
 
 ### Usage
