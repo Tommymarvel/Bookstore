@@ -13,7 +13,6 @@ const initialState = {
 
 export const addBook = (book) => async (dispatch) => {
   try {
-    console.log(book);
     const { data } = await axios.post(API, book);
     dispatch({
       type: ADD_BOOK,
