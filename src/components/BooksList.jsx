@@ -1,29 +1,24 @@
 /* eslint-disable */
-import React from 'react';
-import Books from './Books';
-import AddBook from './AddBook';
+import React from "react";
+import Books from "./Books";
+import AddBook from "./AddBook";
+import { useSelector } from "react-redux";
 
-const BookList = () => {
-  const books = [
-    {
-      id: 1,
-      title: 'The Hunger Games',
-      author: 'Suzanne Collins',
-    },
-    {
-      id: 2,
-      title: 'Dune',
-      author: 'Frank Herbet',
-    },
-  ];
+const BooksList = () => {
+  const bookings = useSelector((state) => state.books);
   return (
     <div>
-      {books.map((book) => (
-        <Books key={book.id} title={book.title} author={book.author} />
+      {bookings.map((book) => (
+        <Books
+          id={book.id}
+          title={book.title}
+          author={book.author}
+          key={book.id}
+        />
       ))}
       <AddBook />
     </div>
   );
 };
 
-export default BookList;
+export default BooksList;

@@ -4,7 +4,7 @@
 
 > The Bookstore is a website similar to the "Awesome Books" website, creating an MVP version that allows Display a list of books.
 Add a book.
-Remove a selected book.
+Remove a selected book
 
 
 ## Built With
@@ -29,30 +29,19 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 ### Setup
+
+ https://github.com/Tommymarvel/Bookstore-
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+ npm install
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+-  GitHub: [@Tommy Marvel](https://github.com/Tommymarvel)
+- Twitter: [@Tomiwa Ibironke](https://twitter.com/tomiwa_ibironke)
+- LinkedIn: [Marvellous Ibironke](https://www.linkedin.com/in/marvellous-ibironke-54026b231/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

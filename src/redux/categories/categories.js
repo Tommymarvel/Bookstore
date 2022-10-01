@@ -1,15 +1,16 @@
-const STATUS_CHECKED = { type: 'STATUS_CHECKED' };
+/* eslint-disable */
+
+const CHECK_STATUS = "CHECK_STATUS";
 const initialState = [];
 
-export const statusCheck = () => {
-  'STATUS_CHECKED';
-};
-
-export default function statusCheckerReducer(state = initialState, action) {
+export default function reducer(state = initialState, action) {
   switch (action.type) {
-    case STATUS_CHECKED:
-      return 'Under construction';
+    case CHECK_STATUS:
+      return "Under construction";
     default:
       return state;
   }
 }
+export const statusChecker = () => ({
+  type: CHECK_STATUS,
+});
