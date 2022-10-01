@@ -1,35 +1,28 @@
-const ADDED_BOOK = { type: 'ADDED_BOOK' };
-const REMOVED_BOOK = { type: 'REMOVED_BOOK' };
+/* eslint-disable */
 
+const ADD_BOOK = "ADD_BOOK";
+const REMOVE_BOOK = "REMOVE_BOOK";
 const initialState = [
   {
-    id: 1,
-    title: 'The Hunger Games',
-    author: 'Suzanne Collins',
-  },
-  {
-    id: 2,
-    title: 'Dune',
-    author: 'Frank Herbet',
+    author: "Jacque Ruso",
+    title: "Petar Pan",
   },
 ];
 
 export const addedBook = (book) => ({
-  type: 'ADDED_BOOK',
+  type: ADD_BOOK,
   book,
 });
-
-export const removedBook = () => ({
-  type: 'REMOVED_BOOK',
+export const removedBook = (id) => ({
+  type: REMOVE_BOOK,
+  id,
 });
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case ADDED_BOOK:
-      return [
-        ...state, action.book,
-      ];
-    case REMOVED_BOOK:
+    case ADD_BOOK:
+      return [...state, action.book];
+    case REMOVE_BOOK:
       return state.filter((book) => book.id !== action.id);
     default:
       return state;
