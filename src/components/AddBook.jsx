@@ -27,7 +27,7 @@ const AddBook = () => {
     setState({ title: "", author: "", category: "" });
   };
   return (
-    <div>
+    <div className={style.body}>
       <h2 className={style.heading}>ADD NEW BOOK</h2>
       <form onSubmit={bookState}>
         <input
