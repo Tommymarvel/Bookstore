@@ -2,9 +2,7 @@
 
 # Bookstore
 
-> The Bookstore is a website similar to the "Awesome Books" website, creating an MVP version that allows Display a list of books.
-Add a book.
-Remove a selected book
+> This react web application was created with Redux Toolkit and React JS to store certain books, check the list of books using APIs, and remove undesired books from lists.
 
 
 ## Built With
@@ -15,7 +13,7 @@ Remove a selected book
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://favorite-bookstore-app.netlify.app/)
 
 
 ## Getting Started
